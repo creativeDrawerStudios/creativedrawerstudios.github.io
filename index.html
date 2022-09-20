@@ -1,27 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>CreativeDrawerStudios</title>
-    <style>
-        html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  background-size: cover;
-  width: 100%;
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>Jordbær</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    body, html {
   height: 100%;
+  color: #777;
+  line-height: 1.8;
 }
-    </style>
-    <style>
-        html { 
-            background: url(greenland.jpg) no-repeat center center fixed; background-size: cover;
-        }
-    </style>
-  </head>
-  <body>
-    <div class="w3-container">
-        <!-- <button class=""></button> -->
-        <img src="react.png" class="w3-spin" width="100" height="100" />
+.bgimg-1{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url('bunses.jpg');
+  min-height: 100%;
+}
+/* .bgimg-2 {
+  background-image: url('lenses.jpg');
+  min-height: 100%;
+} */
+a:hover{
+  color: blue;
+}
+  </style>
+  <body style="background-color: khaki;" > 
+
+    <div>
+      <a href="#home"class="w3-bar-item w3-button w3-hover-amber w3-animate-opacity w3-round-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hover-amber w3-animate-opacity w3-round-large"> ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hover-amber w3-animate-opacity w3-round-large"> CONTACT</a>
     </div>
-  </body> 
+    
+    <div class="bgimg-1 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-round-large">Jordbær</span>
+      </div>
+    </div>
+    
+    <div class="w3-container w3-animate-opacity">
+      <h2 class="w3-border-black w3-border w3-center w3-black w3-round-large w3-opacity-min " id="about"><b>About</b></h2>
+      <p class="w3-border-black w3-border w3-center w3-black w3-round-large w3-opacity-min">
+        I am a game developer and I make things
+      </p>
+
+      <!-- <div class="w3-display-container">
+        <img src="band.jpg" class="w3-center w3-round-xxlarge w3-third " width="500px" height="400px" />
+        <img src="https://www.picsum.photos/500" class="w3-center w3-round-xxlarge w3-third " width="500px" height="400px" />
+        <img src="https://www.picsum.photos/600" class="w3-center w3-round-xxlarge w3-third " width="500px" height="400px" />
+         <p class="w3-three-quarter w3-round-">This is a test of the website</p> -->
+      </div>
+      <div class="w3-row-padding w3-center">
+        <img src="https://www.picsum.photos/700" class="w3-col w3-center w3-round-xxlarge w3-third " width="500px" height="400px" />
+        <img src="https://www.picsum.photos/500" class="w3-col w3-center w3-round-xxlarge w3-third " width="500px" height="400px" />
+        <img src="https://www.picsum.photos/600" class="w3-col w3-center w3-round-xxlarge w3-third " width="500px" height="400px" />
+      </div>
+    </div>
+    <br/>
+    <div class="w3-content w3-container w3-padding-64">
+      <div class="w3-light-grey w3-round-xxlarge">
+        <div class="w3-container w3-padding-small w3-dark-grey w3-center w3-round-xxlarge" style="width:90%">
+          <div class="w3-left w3-text-black"><strong>90%</strong></div>
+        </div>
+      </div>  
+    </div>
+
+  </body>
 </html>
